@@ -1,32 +1,15 @@
 # DISC — Decision-Aware Sparse Diversification for Inference-Time Search
 
-> **Paper abstract (as-is):**  
+> **Paper abstract:**  
 > Inference-time scaling for large language models typically relies on generating multiple candidate completions and then selecting one. In practice, however, common strategies such as repeated sampling and beam search often spend much of their budget on near-duplicate candidates, limiting the amount of new information gained per unit compute. We introduce \DISC, a lightweight, decision-aware search procedure that promotes diversity only at a small number of high-impact generation steps. \DISC first produces a greedy draft, identifies a low-confidence decision point along the draft, and branches by drawing an alternative from a probability-weighted cluster of top candidates in token-embedding space, followed by greedy continuation. A verifier model then selects the final output from the candidate set. Across four instruction-tuned models on the first 100 TriviaQA validation questions, \DISC consistently improves accuracy over greedy decoding, best-of-$N$ sampling, and beam search under comparable budgets. These results indicate that sparse, uncertainty-guided diversification can improve inference-time search without modifying model weights.
-
-This repository contains:
-- **Baselines:** Greedy, Beam Search, Best-of-*N* sampling (BoN)
-- **DISC (“Ours”):** greedy draft → find a low-confidence decision point → cluster top-*k* next-token candidates in token-embedding space → branch + greedy continuation
-- **Verifier:** selects the final output from the candidate set (OpenAI API)
-- **Metrics:** diversity (Distinct-2, Self-BLEU-2) + LLM-judge accuracy (OpenAI API)
-- **Plotting:** utilities to generate paper-style plots from saved JSON results
 
 ---
 
 ## Main figure (put your paper figure here)
 
-1) Create a folder `assets/` at the project root.  
-2) Export your paper’s main figure as a PNG (recommended for GitHub rendering).  
-3) Save it as:
-
-```
-assets/main_figure.png
-```
-
-Then it will render here:
 
 ![DISC main figure](assets/main_figure.png)
 
-> If you want a different filename, update the path in this README accordingly.
 
 ---
 
