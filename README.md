@@ -59,15 +59,7 @@ pip install -U pip
 pip install -r requirements.txt
 ```
 
-### 2) Install `accelerate` (required)
-
-This repo loads HF models with `device_map="auto"` (see `src/hf.py`). That requires `accelerate`.
-
-```bash
-pip install -U accelerate
-```
-
-### 3) (Optional) Plotting dependencies
+### 2) (Optional) Plotting dependencies
 
 `generate_plots.py` uses pandas + seaborn + matplotlib.
 
