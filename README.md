@@ -116,10 +116,6 @@ The “model family” is derived from the HF model id (see `src/utils.py:model_
 - `microsoft/Phi-3-mini-4k-instruct` → `results/phi/`
 - other models have their own family keys
 
-> If your plotting script expects `phi-3` but runs are saved under `phi`, either:
-> - rename the folder (`results/phi` → `results/phi-3`), or  
-> - update `generate_plots.py` to match your folder naming.
-
 All generation scripts **resume** if a results file exists: they skip IDs already processed.
 
 ---
