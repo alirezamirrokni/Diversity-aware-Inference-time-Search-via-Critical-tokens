@@ -208,7 +208,7 @@ python scripts/run_ours.py \
   --seed 42
 ```
 
-**Flag meanings (high-level):**
+**Flag meanings:**
 - `--top_k`: how many next-token candidates to consider at the branching point
 - `--cluster_k`: number of clusters in token-embedding space
 - `--num_new_samples`: how many alternative candidates to branch into (in addition to the greedy draft)
@@ -217,7 +217,7 @@ python scripts/run_ours.py \
 
 ---
 
-## Verification (OpenAI API)
+## Verification
 
 DISC outputs are *not* automatically in verified-format, so to evaluate them with downstream scripts you typically run verification.
 
@@ -233,12 +233,9 @@ This produces a sibling file ending in `...verified.json`, containing (per examp
 - `final_answer`: verifier-selected text
 - `chosen_option_num`: 1-indexed chosen option
 
-**Notes**
-- Beam search / BoN already write verified-format, so verification is optional for them.
-
 ---
 
-## Diversity metrics (local, no API)
+## Diversity metrics
 
 Computes Distinct-2 and Self-BLEU-2 on all `*verified*.json` files under `results/`.
 
@@ -250,7 +247,7 @@ Outputs `*_diversity.json` next to each verified file.
 
 ---
 
-## Judge accuracy (OpenAI API)
+## Judge accuracy
 
 Uses an LLM judge to compare your final answer to the TriviaQA ground truth.
 
@@ -274,41 +271,12 @@ After running experiments and metrics:
 python generate_plots.py
 ```
 
-If plots don’t include your model family, update the model folder names in `generate_plots.py`
-(or rename folders under `results/` to match what the plotting script expects).
-
 ---
 
 ## Reproducibility notes
 
 - Use `--seed` for deterministic shuffling / sampling where applicable.
 - Exact reproducibility can still vary across GPUs / CUDA versions / PyTorch versions.
-
----
-
-## Troubleshooting
-
-### PowerShell says `export` is not recognized
-You are in PowerShell; use:
-```powershell
-$env:OPENAI_API_KEY="sk-..."
-```
-
-### `device_map="auto"` errors / missing accelerate
-Install accelerate:
-```bash
-pip install -U accelerate
-```
-
-### Out-of-memory (OOM) on GPU
-Try:
-- reduce `--top_k` (e.g., 50)
-- reduce `--cluster_k` (e.g., 3)
-- reduce `--emb_batch` (e.g., 1–2)
-- reduce `--max_new_tokens`
-
-### Dataset download is slow / fails
-Hugging Face datasets cache is reused automatically. Re-running should be faster.
 
 ---
 
@@ -319,13 +287,7 @@ If you use this code, please cite the paper:
 ```bibtex
 @inproceedings{disc2026,
   title     = {DISC: Decision-Aware Sparse Diversification for Inference-Time Search},
-  author    = {YOUR NAMES HERE},
+  author    = {Alireza Mirrokni},
   year      = {2026}
 }
 ```
-
----
-
-## License
-
-Add your license here (e.g., MIT, Apache-2.0) and include a `LICENSE` file.
