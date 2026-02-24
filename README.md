@@ -78,8 +78,6 @@ The code expects keys via environment variables (it does **not** auto-load `.env
   - `scripts/run_accuracy.py`
 - `HF_TOKEN` (**optional**) only if you use gated/private HF models
 
-> ⚠️ Never commit API keys to git. If you accidentally paste a key in logs, rotate it.
-
 ### Linux / macOS
 ```bash
 export HF_TOKEN="hf_..."          # optional
@@ -92,16 +90,9 @@ $env:HF_TOKEN="hf_..."            # optional
 $env:OPENAI_API_KEY="sk-..."      # required for verify/accuracy
 ```
 
-**(Optional) Persist on Windows:**
-```powershell
-setx HF_TOKEN "hf_..."
-setx OPENAI_API_KEY "sk-..."
-```
-Then restart PowerShell.
-
 ---
 
-## (Optional) Hugging Face login
+## Hugging Face login
 
 If you need gated/private models:
 
