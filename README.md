@@ -1,5 +1,4 @@
-# Decision-Aware Sparse Diversification for Inference-Time Search
-
+# Diversity-aware-Inference-time-Search-via-Critical-tokens
 ---
 ## Abstract 
 
