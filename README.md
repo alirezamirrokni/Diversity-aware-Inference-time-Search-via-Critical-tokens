@@ -140,8 +140,6 @@ python scripts\run_diversity.py --results_dir results
 python scripts\run_accuracy.py --results_dir results
 ```
 
-> If the wildcard (`*.json`) doesn’t expand on your shell, copy the exact filename printed by the script (`Saved: ...`) and pass it to `--in`.
-
 ---
 
 ## Running experiments
