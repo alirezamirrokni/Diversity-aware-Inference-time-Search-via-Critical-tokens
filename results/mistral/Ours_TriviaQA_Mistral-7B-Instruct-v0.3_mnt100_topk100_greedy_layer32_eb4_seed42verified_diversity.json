@@ -1,0 +1,12 @@
+{
+  "file": "Ours_TriviaQA_Mistral-7B-Instruct-v0.3_mnt100_topk100_greedy_layer32_eb4_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771749749.8933048,
+    "input_size": 129893
+  },
+  "metrics": {
+    "distinct2": NaN,
+    "self_bleu": NaN
+  }
+}

@@ -1,0 +1,10 @@
+torch
+transformers
+datasets
+numpy
+tqdm
+scikit-learn
+huggingface_hub
+openai
+sacrebleu
+rich

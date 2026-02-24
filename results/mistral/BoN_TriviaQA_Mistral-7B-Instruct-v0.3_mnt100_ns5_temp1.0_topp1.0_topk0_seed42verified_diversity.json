@@ -1,0 +1,12 @@
+{
+  "file": "BoN_TriviaQA_Mistral-7B-Instruct-v0.3_mnt100_ns5_temp1.0_topp1.0_topk0_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771776828.6485012,
+    "input_size": 214390
+  },
+  "metrics": {
+    "distinct2": 0.6576407058907202,
+    "self_bleu": 0.5036008083674549
+  }
+}

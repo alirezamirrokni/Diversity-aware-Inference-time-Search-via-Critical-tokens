@@ -1,0 +1,12 @@
+{
+  "file": "Ours_TriviaQA_Phi-3-mini-4k-instruct_mnt100_topk100_greedy_layer32_eb4_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771837445.5724611,
+    "input_size": 118060
+  },
+  "metrics": {
+    "distinct2": NaN,
+    "self_bleu": NaN
+  }
+}

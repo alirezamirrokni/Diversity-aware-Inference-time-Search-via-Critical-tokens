@@ -1,0 +1,12 @@
+{
+  "file": "BeamSearch_TriviaQA_gemma-7b-it_mnt100_beams5_lp1.0_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771752988.6811643,
+    "input_size": 170300
+  },
+  "metrics": {
+    "distinct2": 0.39422972688079055,
+    "self_bleu": 0.8144109211118327
+  }
+}

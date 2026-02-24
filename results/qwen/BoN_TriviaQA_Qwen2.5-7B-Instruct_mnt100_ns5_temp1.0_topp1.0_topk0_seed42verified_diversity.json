@@ -1,0 +1,12 @@
+{
+  "file": "BoN_TriviaQA_Qwen2.5-7B-Instruct_mnt100_ns5_temp1.0_topp1.0_topk0_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771774505.1865833,
+    "input_size": 132937
+  },
+  "metrics": {
+    "distinct2": 0.49277134525903,
+    "self_bleu": 0.6844076047548597
+  }
+}

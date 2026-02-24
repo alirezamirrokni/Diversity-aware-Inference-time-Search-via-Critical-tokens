@@ -1,0 +1,12 @@
+{
+  "file": "Ours_TriviaQA_Qwen2.5-7B-Instruct_mnt100_topk100_ck5_ns4_sc1_sw0_layer28_eb4_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771749359.2779422,
+    "input_size": 146817
+  },
+  "metrics": {
+    "distinct2": 0.6985089316054549,
+    "self_bleu": 0.4921463108916682
+  }
+}

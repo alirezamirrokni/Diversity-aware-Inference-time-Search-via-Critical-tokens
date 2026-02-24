@@ -1,0 +1,12 @@
+{
+  "file": "BeamSearch_TriviaQA_Phi-3-mini-4k-instruct_mnt100_beams5_lp1.0_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771837320.9869604,
+    "input_size": 136831
+  },
+  "metrics": {
+    "distinct2": 0.7287608370677907,
+    "self_bleu": 0.5353919878442318
+  }
+}

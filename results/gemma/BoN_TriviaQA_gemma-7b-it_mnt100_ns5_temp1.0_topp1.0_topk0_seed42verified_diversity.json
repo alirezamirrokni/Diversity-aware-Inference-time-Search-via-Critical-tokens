@@ -1,0 +1,12 @@
+{
+  "file": "BoN_TriviaQA_gemma-7b-it_mnt100_ns5_temp1.0_topp1.0_topk0_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771774740.2600691,
+    "input_size": 170722
+  },
+  "metrics": {
+    "distinct2": 0.5156425422929897,
+    "self_bleu": 0.6511179879918491
+  }
+}

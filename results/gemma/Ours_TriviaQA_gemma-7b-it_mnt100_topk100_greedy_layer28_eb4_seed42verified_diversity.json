@@ -1,0 +1,12 @@
+{
+  "file": "Ours_TriviaQA_gemma-7b-it_mnt100_topk100_greedy_layer28_eb4_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771752988.1141245,
+    "input_size": 123603
+  },
+  "metrics": {
+    "distinct2": NaN,
+    "self_bleu": NaN
+  }
+}

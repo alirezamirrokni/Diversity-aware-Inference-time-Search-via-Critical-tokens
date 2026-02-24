@@ -1,0 +1,12 @@
+{
+  "file": "BeamSearch_TriviaQA_Mistral-7B-Instruct-v0.3_mnt100_beams5_lp1.0_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771749623.7484684,
+    "input_size": 193623
+  },
+  "metrics": {
+    "distinct2": 0.4010659863649777,
+    "self_bleu": 0.7860853677032015
+  }
+}

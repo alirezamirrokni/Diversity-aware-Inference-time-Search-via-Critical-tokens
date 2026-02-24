@@ -1,0 +1,12 @@
+{
+  "file": "BeamSearch_TriviaQA_Qwen2.5-7B-Instruct_mnt100_beams5_lp1.0_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771749357.6268265,
+    "input_size": 131398
+  },
+  "metrics": {
+    "distinct2": 0.6351597141311632,
+    "self_bleu": 0.4993996185156233
+  }
+}

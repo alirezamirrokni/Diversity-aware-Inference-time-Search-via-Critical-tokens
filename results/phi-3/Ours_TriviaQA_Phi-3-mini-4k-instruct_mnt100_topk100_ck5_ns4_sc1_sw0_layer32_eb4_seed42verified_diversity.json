@@ -1,0 +1,12 @@
+{
+  "file": "Ours_TriviaQA_Phi-3-mini-4k-instruct_mnt100_topk100_ck5_ns4_sc1_sw0_layer32_eb4_seed42verified.json",
+  "meta": {
+    "config_hash": "da02200e0e145ab5",
+    "input_mtime": 1771837630.6491256,
+    "input_size": 209241
+  },
+  "metrics": {
+    "distinct2": 0.5859366281498102,
+    "self_bleu": 0.508188133680132
+  }
+}
