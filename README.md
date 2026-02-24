@@ -5,7 +5,7 @@
 
 ---
 
-## Main figure (put your paper figure here)
+## Main figure 
 
 
 ![DISC main figure](assets/main_figure.png)
